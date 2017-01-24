@@ -107,7 +107,7 @@ Openfire Setup 這部分 UI 的 jsp 感覺 bug 頗多，過程中有可能會遇
 選擇語系，請先選 English，公司有為 Openfire 加上繁體中文，等安裝完畢後可再另行設定。
 Server Settings: Domain 這欄位預設會抓到機器名，但如果是放在內部網路的測試機，無法DNS反查到，請填入 IP。Property Encryption Key 隨便打即可。
 
-![alt tag](testMarkDown/res/1.png)
+![alt tag](res/1.png)
 
 Database Settings: 我們要使用 MariaDB，不用改預設值，直接 Continue 進入下一頁開始設定 DB。Database URL 這欄我們要加入 UTF8 相關的參數，否則中文訊息存入DB時會變成亂碼。此欄請填：
 
